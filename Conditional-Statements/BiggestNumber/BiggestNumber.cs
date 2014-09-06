@@ -4,10 +4,12 @@ class BiggestNumber
 {
     static void Main()
     {
+        //Declare variables
         double a = double.Parse(Console.ReadLine());
         double b = double.Parse(Console.ReadLine());
         double c = double.Parse(Console.ReadLine());
 
+        //Compare variables and print result
         if (a > b)
         {
             if (a > c)
